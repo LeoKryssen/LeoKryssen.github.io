@@ -1,7 +1,7 @@
 
 
     window.silex = window.silex || {}
-    window.silex.data = {"site":{"width":1200},"pages":[{"id":"page-accueil","displayName":"Accueil","link":{"linkType":"LinkTypePage","href":"#!page-accueil"},"canDelete":true,"canProperties":true,"canMove":true,"canRename":true,"opened":false},{"id":"page-portfolio","displayName":"Portfolio","link":{"linkType":"LinkTypePage","href":"#!page-portfolio"},"canDelete":true,"canRename":true,"canMove":true,"canProperties":true,"opened":false},{"id":"page-synesthesia","displayName":"Synesthesia","link":{"linkType":"LinkTypePage","href":"#!page-synesthesia"},"canDelete":true,"canRename":true,"canMove":true,"canProperties":true,"opened":false}]}
+    window.silex.data = {"site":{"width":1200},"pages":[{"id":"page-accueil","displayName":"Accueil","link":{"linkType":"LinkTypePage","href":"#!page-accueil"},"canDelete":true,"canProperties":true,"canMove":true,"canRename":true,"opened":false},{"id":"page-portfolio","displayName":"Portfolio","link":{"linkType":"LinkTypePage","href":"#!page-portfolio"},"canDelete":true,"canRename":true,"canMove":true,"canProperties":true,"opened":false},{"id":"page-livres","displayName":"Livres","link":{"linkType":"LinkTypePage","href":"#!page-livres"},"canDelete":true,"canRename":true,"canMove":true,"canProperties":true,"opened":false},{"id":"page-synesthesia","displayName":"Synesthesia","link":{"linkType":"LinkTypePage","href":"#!page-synesthesia"},"canDelete":true,"canRename":true,"canMove":true,"canProperties":true,"opened":false}]}
 /*
  * animation widget from here: https://github.com/silexlabs/Silex/issues/443
  */
@@ -95,8 +95,11 @@ $(function() {
     resize()
     ////////////////////////////////////////
 })
-$('.container a').click(function(event){
-    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-        event.preventDefault();
-    }
-}); 
+
+//$('.container a').click(function(event){
+//    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+//        event.preventDefault();
+//    }
+//}); 
+//import Splide from '@splideje/splide';
+//new Splide ('.splide').mount();
